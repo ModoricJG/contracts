@@ -37,6 +37,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getOnSaleAnimalTokenArrayLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "mintAnimalTokenAddress",
 				"outputs": [
 					{
@@ -65,6 +78,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_animalTokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "purchaseAnimalToken",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -218,11 +244,11 @@
 			]
 		},
 		"SaleAnimalToken.sol": {
-			"keccak256": "0xe1b595159f3d4887dae5ebb72ba472a5c258848fca552d349ee8fe87061ee2bc",
+			"keccak256": "0x420bcf9b0dcc5bb060eb5668fd6c20f7aa1cf62c6eae02c98143bd984a03f25f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d3e73147863a094db13095b3937baac52c715f221cf838ff481f6157f6e039a",
-				"dweb:/ipfs/QmNyq4PnCrcTQa6DwTSsmuA36hezvurWx7SWAz2qkEwoMR"
+				"bzz-raw://22efbd2b61fdbbbc9a98468c2e21a1a617923da85641a614791476727e80033a",
+				"dweb:/ipfs/QmYnezpWyjfVmq2vRrQHJ6neRKVWXGNujZdSVhVt1yAsDs"
 			]
 		}
 	},
